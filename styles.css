@@ -90,6 +90,8 @@ p {
   height: 20%;
   background-color: #fdfdc4;
   border-style: dotted;
+
+
 }
 
 .side {
@@ -100,7 +102,7 @@ p {
   text-align: left;
   font-size: 20px;
   margin-left: 15px;
-  margin-top: 15px;
+  margin-top: 1px;
   text-decoration: underline;
   height: 20%;
   background-color: #48e0e4;
@@ -121,8 +123,11 @@ p {
 .why {
   text-align: center;
   margin-left: 23%;
+  margin-top: -28%;
+
+
   float: center;
-  margin-top: -33%;
+
 }
 
 .hell {
