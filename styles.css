@@ -1,15 +1,5 @@
-.indexbody {
-  width: 100%;
-  height: 100%;
-  background-image: url(photos/background.jpg);
-  background-size: cover;
-  ;
-  width: 100%;
-  height: 1100px;
-  background-position: center;
-  background-repeat: no-repeat;
-  overflow-x: hidden;
-  font-family: fantasy;
+.body1 {
+  background-color: #66ffcc;
 }
 
 ul {
@@ -20,6 +10,7 @@ ul {
 
 li {
   display: inline;
+  text-align: center;
 }
 
 li a {
@@ -39,308 +30,198 @@ li a:hover {
 }
 
 .nav {
-  height: 15%;
+  height: 55%;
   width: 100%;
+  font-family: cursive;
 }
 
-.imgcali {
-  height: 100%;
-  width: 50%;
-}
-
-.middle {
-  text-align: center;
-  height: 75%;
-  color: white;
-  margin-bottom: 5%;
-}
-
-.footer {
-  text-align: left;
-  color: white;
-  height: 5%;
-  font-style: italic;
-}
-
-.footer2 {
-  text-align: left;
-  color: black;
-  height: 5%;
-  font-style: italic;
-}
-
-p {
-  color: white;
-  font-size: 20px;
-  text-align: center;
-}
-
-.sidegoals {
-  color: #3b2c85;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 8px;
-  padding-right: 8px;
-  font-size: 20px;
-  display: block;
-  margin-left: 15px;
-  margin-top: 50px;
-  position: relative;
-  width: 20%;
-  height: 20%;
-  background-color: #fdfdc4;
-  border-style: dotted;
-
-
-}
-
-.side {
-  display: list-item;
-  list-style-type: circle;
-  text-decoration-style: wavy;
-  color: #e40475;
-  text-align: left;
-  font-size: 20px;
-  margin-left: 15px;
-  margin-top: 1px;
-  text-decoration: underline;
-  height: 20%;
-  background-color: #48e0e4;
-  width: 100%;
-  float: left;
-}
-
-.major {
-  color: black;
-  border-style: dotted;
-  background-color: #ff1f5a;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  border-width: thick;
-  width: 95%;
-}
-
-.why {
-  text-align: center;
-  margin-left: 23%;
-  margin-top: -28%;
-
-
-  float: center;
-
-}
-
-.hell {
-  color: white;
-  border-style: dashed;
-  background-color: #8b104e;
-  border-top-style: dotted;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  border-width: thick;
-  width: 40%;
-  margin-left: 20%;
-  margin-top: 4%;
-  text-decoration: underline;
-  padding-left: 1%;
-  padding-right: 1%;
-  text-decoration-style: wavy;
-}
-
-.dadsection {
-  border-style: dotted;
-  background-color: #1fe5bd;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  margin-left: 23%;
-  border-width: thick;
-  width: 75%;
-}
-
-h1, h2 {
-  color: white;
-}
-
-.contactinfo1 {
-  color: #7c203a;
-  text-decoration: underline;
-  text-decoration-style: wavy;
-}
-
-.contactinfo2 {
-  margin-left: 41.5%;
-  color: black;
-  text-decoration: underline;
-  text-decoration-style: wavy;
-}
-
-.list {
-  color: white;
-  margin-left: 40%;
-  border-style: dotted;
-  background-color: #404b69;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  padding-left: 4%;
-  padding-right: 4%;
-  width: 15%;
-  text-align: center;
-}
-
-.button {
-  background-color: #fb929e;
-  text-align: center;
-  height: 50px;
-  color: white;
-  margin-bottom: 20px;
-  font-style: italic;
-  font-size: 20px;
-  border-style: dotted;
-  border-width: thick;
-}
-
-.indexbody1 {
-  background-color: teal;
-  font-family: monospace;
-  background-size: cover;
-  width: 100%;
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  overflow-x: hidden;
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .imgdad {
-  margin-top: 10px;
-  margin-left: 50%;
-  margin-right: 10%;
-  margin-bottom: 10px;
-  height: 390px;
+  height: 500px;
+  width: 500px;
+  border-style: double;
+  border-radius: 80%;
+  margin-top: 20px;
 }
 
-.codeimg {
+.contactimg {
+  width: 40%;
+  margin-bottom: 10px;
+  border-style: double;
+  margin-top: 20px;
+}
+
+.button1 {
   display: flex;
-  margin-left: 26.5%;
-  height: 50%;
-  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-family: cursive;
+}
+
+.banner {
+  background-color: white;
+  background-size: 50%;
+  border-style: double;
+  border-width: thick;
+  text-align: center;
+  font-style: italic;
+  font-family: fantasy;
+  border-spacing: inherit;
+}
+
+.gurl {
+  position: relative;
+  height: 200px;
+  background: #DCDCDC;
+  border-style: dashed;
+  margin-top: 10px;
+  margin-bottom: 120px;
+}
+
+.button,
+.definition {
+  transition: 0.3s;
+  font-family: fantasy;
+}
+
+.button {
+  left: 50%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.button2 {
+  width: 40%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 16px;
+  font-family: fantasy;
+}
+
+.button3 {
+  width: 40%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 16px;
+  font-family: fantasy;
+  margin-top: 10px;
+}
+
+.definition {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  padding-bottom: 30px;
+}
+
+.gurl:hover .button {
+  opacity: 0;
+}
+
+.gurl:hover .definition {
+  opacity: 1;
+}
+
+.dadsection {
+  border-style: solid;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-top: 60px;
+  background-color: #E6E6FA;
+  font-family: fantasy;
+}
+
+.indexbody1 {
+  font-family: cursive;
+  background-color: #6A5ACD;
 }
 
 .indexbody2 {
   font-family: cursive;
-  background-color: #66ffcc;
+  background-color: #00FFFF;
 }
 
-.goalsheading {
-  background-color: #f8b500;
-  border-style: dotted;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  border-width: thick;
-  width: 20%
+.contactinfo1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-family: monospace;
 }
 
-.indexbody3 {
-  background-image: url("photos/rainbow.gif");
-  font-family: sans-serif;
-  background-size: cover;
-  width: 100%;
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  overflow-x: hidden;
-  color: white;
-}
-
-.sidegoals1 {
-  color: #e40475;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 8px;
-  padding-right: 8px;
-  font-size: 20px;
-  display: block;
-  margin-left: 15px;
-  margin-top: 50px;
-  position: relative;
-  width: 20%;
-  height: 20%;
-  background-color: #48e0e4;
-  border-style: dotted;
-  float: left;
-}
-
-.fashionimg {
-  height: 1%;
-  width: 15%;
-}
-
-.igimg {
-  width: 100%;
-}
-
-.airimg {
-  height: 100%;
-  width: 75%;
-}
-
-.zonimg {
-  height: 100%;
-  width: 100%;
-}
-
-.gitimg {
-  height: 100%;
-  width: 100%;
-}
-
-.stevensimg {
-  height: 100%;
-  width: 35%;
-}
-
-.appleimg {
-  height: 100%;
-  width: 75%;
-}
-
-.resumeimg {
-  height: 100%;
-  width: 70%;
-}
-
-article {
-  margin-left: 25%;
-  text-align: center;
-  float: center;
-  padding-left: 5%;
-  padding-right: 5%;
-  width: 50%;
-}
-
-.footer3 {
-  height: 10%;
-  width: 100%;
-  background-color: black;
-  opacity: 0.85;
-}
-
-.resu {
-  margin-bottom: 10%;
-}
-
-.proj {
+.otakon {
+  height: 355px;
+  width: 355px;
+  border-style: double;
+  padding-left: 10px;
+  padding-right: 10px;
   background-color: white;
-  width: 20%;
-  color: #1a2c5b;
-  text-align: center;
+  border-style: groove;
+  border-color: black;
+  margin-top: 10px;
 }
 
-.portfolio {
+.ota {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: fantasy;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 100px;
+}
+
+.photo {
+  height: 40%;
+  width: 40%;
+  margin-right: 50px;
+}
+
+.projects1 {
   text-align: center;
-  text-decoration: underline;
-  text-decoration-style: wavy;
-  background-color: black;
-  opacity: 0.85;
-  height: 3%;
-  color: white;
+  font-family: cursive;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: fantasy;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.conbod {
+  background-color: #7CFC00;
 }
